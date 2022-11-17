@@ -1,5 +1,82 @@
-div
 #ccontent {
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
   }
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+
+header {
+    background-color:rgba(178, 212, 153, 0.414);
+}
+
+nav a{
+    background-color: #fcfbfb;
+    color: #fcfbfb;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(224, 213, 178, 0.541);
+    color: antiquewhite;
+}
+
+.home-title{
+    background-color: #fcfbfb;
+    color: #fcfbfb;
+}
+
+h4{
+    background-color: #fcfbfb;
+    color: #fcfbfb;
+}
+
+.book, .join{ 
+    background-color: rgb(159, 202, 239);
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover{ 
+    background-color: rgba(231, 177, 177, 0.524);
+    color: aliceblue;
+}
+
+.msg{ 
+    background-color: #94abf164;
+    color: azure;
+}
+
+footer{ 
+    background-color: rgba(126, 164, 235, 0.349);
+    color: beige;
+}
+footer a{
+    background-color: rgba(126, 164, 235, 0.349);
+    color: beige;
+    text-align: center;
+    text-decoration: none;
+}
+
+#background {
+    background-color: #58e5f785; 
+}
+
+.icon {
+    width: 80px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
