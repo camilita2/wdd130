@@ -1,7 +1,7 @@
-#ccontent {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&family=Pacifico&display=swap');
+#content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
   }
 
 #background {
@@ -10,6 +10,10 @@
 
 body {
     background-color: #fcfbfb; 
+    font-family: Merriweather;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -17,7 +21,7 @@ header {
 }
 
 nav a{
-    background-color: #fcfbfb;
+    padding: 35px;
     color: #fcfbfb;
     text-align: center;
     text-decoration: none;
@@ -29,8 +33,10 @@ nav a:hover {
 }
 
 .home-title{
-    background-color: #fcfbfb;
-    color: #fcfbfb;
+    color: black;
+    font-family: "Merriweather";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -41,9 +47,16 @@ h4{
 .book, .join{ 
     background-color: rgb(159, 202, 239);
     color: aliceblue;
-    text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
 
 .book:hover, .join:hover{ 
     background-color: rgba(231, 177, 177, 0.524);
@@ -52,12 +65,25 @@ h4{
 
 .msg{ 
     background-color: #94abf164;
-    color: azure;
+    line-height: 1.5em;
+    color: black;
+    padding: 35px;
 }
+.msg h2{
+    font-family: "Merriweather";
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2{
+    margin: 0;
 
+}
 footer{ 
     background-color: rgba(126, 164, 235, 0.349);
-    color: beige;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 footer a{
     background-color: rgba(126, 164, 235, 0.349);
@@ -72,6 +98,7 @@ footer a{
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -80,3 +107,20 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    padding: 35px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card-img{
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
