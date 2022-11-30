@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&family=Pacifico&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    
+    text-align: center;
   }
 
 #background {
     height: 725px;
+    background-color: #fcfbfb; 
 }
 
 body {
@@ -124,4 +126,19 @@ footer .social img{
 
 main section img {
     box-sizing: border-box;
+}
+
+#hero-msg h1, #hero-msg h4{
+
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+
+}
+
+main section{
+    text-align: center;
+
 }
