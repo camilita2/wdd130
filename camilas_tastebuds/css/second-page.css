@@ -1,0 +1,12 @@
+#p2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#p2image {
+    grid-column: 1/2;
+}
+#p2div {
+    grid-column: 2/3;
+    line-height: 100px;
+}

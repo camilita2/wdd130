@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&family=Pacifico&display=swap');
+
+
+body, a{
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#content{ 
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+}
+
+.logo{
+    width: 30px;
+}
+#home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+    
+}
