@@ -8,5 +8,55 @@
 }
 #p2div {
     grid-column: 2/3;
-    line-height: 100px;
+    line-height: 92.5px;
 }
+
+nav{
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: gold;
+}
+
+#logo_link{
+    z-index: 1;
+    margin-top: -10px;
+}
+.logo{
+    width: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: black;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+
+body, a{
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#content{ 
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* .logo{
+    width: 30px;
+} */
